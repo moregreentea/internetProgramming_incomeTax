@@ -1,0 +1,71 @@
+body {
+    background-color: #8bb0b0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    min-width: 250px;
+    max-width: 950px;
+    margin: auto;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    background-image: url("images/elgatoEating.gif");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.address-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLabel {
+    white-space: nowrap;
+    width: 97px;
+}
+
+label[for="title"] {
+    width: 40px;
+}
+
+label[for="fullTimeStudent"] {
+    width: 185px;
+}
+
+.btnCalculateTax {
+    width: 10%;
+    margin: auto auto 10px;
+}
